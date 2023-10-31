@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Working of Form Submission</h1>
+        <form method="post" action="32ndform.php">
+            Enter your Name : 
+            <input type="text" name="textname">
+            <span><?php echo $textname_error;?></span><br><br>
+            Enter your email_id : 
+            <input type="email" name="textemail"><br><br>
+            Enter your Phone No : 
+            <input type="text" name="textphone"><br><br>
+            Enter your address : <br>
+            <textarea name="textaddress" rows="5" cols="40">
+            </textarea><br><br>
+            Gender : 
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <br><br>
+            <input type="reset" name="reset" value="Reset">
+            <input type="submit" name="submit" value="Submit">
+        </form>
+        </body>
+        </html>
